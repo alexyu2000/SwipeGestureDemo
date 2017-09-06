@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.gray
+        view.backgroundColor = UIColor.red
         let directions: [UISwipeGestureRecognizerDirection] = [.up, .down, .right, .left]
         for direction in directions {
             let gesture = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(gesture:)))
